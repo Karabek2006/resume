@@ -1,0 +1,28 @@
+.html {
+	background: #f16529;
+	border-radius: 1px;
+    padding: 10px 50px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.css {
+	background: #2862e9;
+	border-radius: 1px;
+	padding: 10px 50px;
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+
+#header {
+	color: black;
+
+}
+.card h3 {
+    color: darkred;
+}
+
+.card {
+	background: #fff;
+	border: 1px solid #ddd;
+}

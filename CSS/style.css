@@ -1,0 +1,97 @@
+.card {
+	background: #ddd;
+	border-radius: 15px;
+  padding: 10px 50px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.info {
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.info-text {
+	border-radius: 15px;
+	padding: 10px 50px;
+	margin-bottom: 15px;
+}
+
+.info-text p {
+	margin: 0;
+}
+
+.container {
+	margin: auto;
+	max-width: 750px;
+}
+
+@media (max-width: 540px){
+	.info {
+		display: block;
+		text-align: center;
+	}
+}
+
+a {
+  color: blue;
+  text-decoration: none; 
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
+a:visited {
+	color: red;
+}
+
+.btn {
+	background: black;
+	color: white;
+	border-radius: 5px;
+	padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {	
+	opacity: 0.8;
+}
+
+.form-row {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.form-row .form-group {
+	width: 100%;
+}
+
+@media (max-width: 540px){
+	.form-row {
+	  display: block;
+  }
+}
+
+.form h2 {
+	text-align: center;
+}
+
+.form-group label {
+	display: block;
+	font-size: 14px;
+	color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	color: black;
+	padding: 15px 0 10px;
+	font-family: inherit;
+}
